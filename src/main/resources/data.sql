@@ -1,0 +1,3 @@
+INSERT INTO shipping(order_id, tracking_id, carrier, status, created_at, updated_at) VALUES('10001', 'UPS12345678', 'UPS', 'In-Transit', NOW(), NOW());
+INSERT INTO shipping(order_id, tracking_id, carrier, status, created_at, updated_at) VALUES('20001', 'CEVA12345678', 'CEVA', 'Delivered', NOW(), NOW());
+INSERT INTO shipping(order_id, tracking_id, carrier, status, created_at, updated_at) VALUES('30001', 'FEDX12345678','FEDX', 'Refused by Consignee', NOW(),NOW());
